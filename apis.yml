@@ -1,8 +1,16 @@
 aid: poker-skill
 name: Poker Skill
-description: 'Poker Skill is a company surfaced as a portfolio company of initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Poker Skill is a mobile-first poker-training app for iOS and Android that turns
+  learning poker into a daily habit. It teaches through interactive puzzles,
+  bite-sized guided lessons, and daily practice reps that adapt to the player's
+  skill level, from complete beginner to serious improver. At its core is
+  "Showdown AI", a versioned game-theory engine that deals practice hands, plays
+  the opponents, and grades every decision by its expected value — an approach the
+  company says replicates the methods behind Pluribus, the first AI to beat top
+  professionals at six-max no-limit hold'em. The product is subscription-funded
+  with a free-to-start funnel, and is backed by Initialized Capital. Poker Skill
+  is a consumer application and does not publish a public developer API program.
 url: https://raw.githubusercontent.com/api-evangelist/poker-skill/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,30 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.pokerskill.com/og/home.png
 tags:
 - Company
 - Consumer
+- Poker
+- Gaming
+- Education
+- Mobile App
+- Training
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/poker-skill-domain-security.yml
 - type: Website
   url: https://www.pokerskill.com/
+- type: Blog
+  url: https://www.pokerskill.com/blog/
+- type: Support
+  url: https://www.pokerskill.com/product/faq/
+- type: PrivacyPolicy
+  url: https://www.pokerskill.com/privacy/
+- type: TermsOfService
+  url: https://www.pokerskill.com/terms/
+- type: LLMsTxt
+  url: llms/poker-skill-llms.txt
+- type: WellKnown
+  url: well-known/poker-skill-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
